@@ -1,0 +1,13 @@
+[general]
+name=raster 
+qgisMinimumVersion=3.0
+description=Plugin de ejemplo de tipo raster
+version=1.0
+author=Miriam Temahuay Garcia 
+email=miriam.temahuay.garcia@gmail.com
+tags=web,catalog,service,metadata,csw
+homepage=http://insigeo.com.mx/
+tracker=http://insigeo.com.mx/
+experimental=False
+deprecated=False
+changelog=Version 0.3.5 (2019-12-16)
