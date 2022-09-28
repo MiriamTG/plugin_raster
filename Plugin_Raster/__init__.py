@@ -1,4 +1,4 @@
-def name():
+def name ():
     return "Raster"
 
 def author():
@@ -10,7 +10,7 @@ def authorName():
 def email():
     return "miriam.temahuay.garcia@gmail.com"
 
-def description(): 
+def description():
     return "raster"
 
 def about():
@@ -19,11 +19,11 @@ def about():
 def version():
     return "0.0.1"
 
-def qgisMininumVersion():
+def qgisMiniumVersion():
     return "3.0"
-    
+
 def icon():
-    return "raster.png"
+    return "icon.png"
 
 def category():
     return "Raster"
