@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>837</width>
-    <height>484</height>
+    <width>469</width>
+    <height>245</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>811</width>
-      <height>421</height>
+      <x>20</x>
+      <y>20</y>
+      <width>411</width>
+      <height>191</height>
      </rect>
     </property>
     <property name="font">
@@ -32,12 +32,28 @@
     <property name="title">
      <string>Datos de entrada</string>
     </property>
+    <widget class="QComboBox" name="cmb1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>221</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+    </widget>
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
        <x>20</x>
        <y>30</y>
-       <width>181</width>
+       <width>221</width>
        <height>16</height>
       </rect>
      </property>
@@ -48,25 +64,15 @@
       </font>
      </property>
      <property name="text">
-      <string>Selecciona el archivo</string>
+      <string>Selecciona el archivo </string>
      </property>
     </widget>
-    <widget class="QComboBox" name="cmbbx1">
+    <widget class="QPushButton" name="btn1">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>250</x>
        <y>50</y>
-       <width>151</width>
-       <height>22</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="Btn1">
-     <property name="geometry">
-      <rect>
-       <x>180</x>
-       <y>50</y>
-       <width>31</width>
+       <width>41</width>
        <height>23</height>
       </rect>
      </property>
@@ -79,7 +85,7 @@
       <rect>
        <x>20</x>
        <y>90</y>
-       <width>201</width>
+       <width>221</width>
        <height>16</height>
       </rect>
      </property>
@@ -93,13 +99,13 @@
       <string>Sistema de referencia geoespacial</string>
      </property>
     </widget>
-    <widget class="QLabel" name="Lbl1">
+    <widget class="QLabel" name="lb1">
      <property name="geometry">
       <rect>
        <x>20</x>
        <y>120</y>
-       <width>47</width>
-       <height>13</height>
+       <width>221</width>
+       <height>16</height>
       </rect>
      </property>
      <property name="font">
@@ -109,279 +115,48 @@
       </font>
      </property>
      <property name="text">
-      <string>SCRG</string>
+      <string>SRG</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_3">
+    <widget class="QPushButton" name="btn2">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>140</y>
-       <width>151</width>
-       <height>16</height>
+       <y>150</y>
+       <width>93</width>
+       <height>28</height>
       </rect>
      </property>
      <property name="text">
-      <string>Datos de información</string>
+      <string>Ayuda</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="textEdit">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>170</y>
-       <width>791</width>
-       <height>241</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="lblExt">
-     <property name="geometry">
-      <rect>
-       <x>130</x>
-       <y>180</y>
-       <width>47</width>
-       <height>13</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Extent</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="lblxmn">
+    <widget class="QPushButton" name="btn3">
      <property name="geometry">
       <rect>
        <x>150</x>
-       <y>280</y>
-       <width>47</width>
-       <height>13</height>
+       <y>150</y>
+       <width>93</width>
+       <height>28</height>
       </rect>
      </property>
      <property name="text">
-      <string>Xmin</string>
+      <string>Empezar</string>
      </property>
     </widget>
-    <widget class="QLabel" name="lblymn">
+    <widget class="QPushButton" name="btn4">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>330</y>
-       <width>47</width>
-       <height>13</height>
+       <x>280</x>
+       <y>150</y>
+       <width>93</width>
+       <height>28</height>
       </rect>
      </property>
      <property name="text">
-      <string>ymin</string>
+      <string>Cerrar</string>
      </property>
     </widget>
-    <widget class="QLabel" name="lblxmx">
-     <property name="geometry">
-      <rect>
-       <x>590</x>
-       <y>280</y>
-       <width>47</width>
-       <height>13</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>xmax</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="lblymx">
-     <property name="geometry">
-      <rect>
-       <x>590</x>
-       <y>330</y>
-       <width>47</width>
-       <height>13</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>ymax</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="lblTpix">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>240</y>
-       <width>47</width>
-       <height>13</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>tpixel</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="lblAncho">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>380</y>
-       <width>47</width>
-       <height>13</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Ancho</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="lblAlto">
-     <property name="geometry">
-      <rect>
-       <x>590</x>
-       <y>380</y>
-       <width>47</width>
-       <height>13</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Alto</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_4">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>180</y>
-       <width>71</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>extenciones</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_5">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>240</y>
-       <width>111</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>unidades de pixel</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_6">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>280</y>
-       <width>111</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>coordenadas min X</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_7">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>330</y>
-       <width>121</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>coordenadas min Y</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_8">
-     <property name="geometry">
-      <rect>
-       <x>456</x>
-       <y>280</y>
-       <width>111</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>coordenadas max X</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_9">
-     <property name="geometry">
-      <rect>
-       <x>460</x>
-       <y>330</y>
-       <width>121</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>coordenadas max Y</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_10">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>380</y>
-       <width>91</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Pixeles ancho</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_11">
-     <property name="geometry">
-      <rect>
-       <x>460</x>
-       <y>380</y>
-       <width>91</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Pixeles Largo</string>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QPushButton" name="Btn2">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>450</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Ayuda</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Btn3">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>450</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Ejecutar</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Btn4">
-    <property name="geometry">
-     <rect>
-      <x>740</x>
-      <y>450</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Cerrar</string>
-    </property>
    </widget>
   </widget>
  </widget>
